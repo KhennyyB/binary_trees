@@ -33,7 +33,7 @@ void height_of_tree(const binary_tree_t *tree, int n, int *height)
  *balance factor of a binary tree
  * @tree: pointer to the root of the binary tree
  *
- * Returns: balance factor
+ * Return: balance factor
  */
 
 int binary_tree_balance(const binary_tree_t *tree)
