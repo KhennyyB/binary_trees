@@ -72,5 +72,6 @@ bst_t *bst_search(const bst_t *tree, int value);
 bst_t *bst_remove(bst_t *root, int value);
 bst_t *minval(bst_t *node);
 void count_parent(const binary_tree_t *tree, size_t *n);
+void height_of_tree(const binary_tree_t *tree, int n, int *height);
 
 #endif
