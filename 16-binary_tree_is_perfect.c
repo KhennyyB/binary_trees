@@ -4,7 +4,8 @@
  * tree_stats - checks leaes in binary tree
  * @tree: pointer to root
  * @n: accumulation of node count
- * @leaves: pointer to max height value
+ * @height: pointer to max height value
+ * @leaves: number of nodes with no children
  *
  * Return: void
  */
@@ -12,7 +13,7 @@
 void tree_stats(const binary_tree_t *tree, size_t n,
 		size_t *leaves, size_t *height)
 {
-	if (tree!= NULL)
+	if (tree != NULL)
 	{
 		if ((tree->left == NULL) && (tree->right == NULL))
 		{
