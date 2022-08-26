@@ -1,4 +1,4 @@
-#include "binry_trees.h"
+#include "binary_trees.h"
 
 /**
  * tree_stats - checks leaes in binary tree
