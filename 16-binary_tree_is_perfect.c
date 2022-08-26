@@ -46,5 +46,5 @@ int binary_tree_is_perfect(const binary_tree_t *tree)
 	size_t tree_height = 0;
 
 	tree_stats(tree, 0, &leaf_count, &tree_height);
-	return ((int) leaf_count == (1 << tree_height) ? 1 : 0)
+	return ((int) leaf_count == (1 << tree_height) ? 1 : 0);
 }
